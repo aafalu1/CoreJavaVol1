@@ -1,0 +1,21 @@
+String in java means , sequences of unicode characters.
+Each quated string is an instance of the String Class.
+
+Strings are immutable
+we can not modify the individual characters from the
+String. String refers to the object of String
+class as immutable.
+
+CompareTo method
+return a negative value if the Strings comes before
+other in dictionary order, a positive value if the
+String comes after other in a dictionary order, or
+O if the Strings are equal.
+
+Scanner class is not suitable for reading
+password from a console since the input is
+plainly visible to anyone . Java 6 Introduce
+a Console class specifically for this purpose
+Console cons=System.console();
+String userName=con.readLine("User Name : ")
+String password=con.readPassword("Password : ");
