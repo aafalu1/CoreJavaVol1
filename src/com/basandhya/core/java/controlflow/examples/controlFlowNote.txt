@@ -1,0 +1,21 @@
+While loop
+-Checks loop control condition at start
+- if the condition is false at start loop body may never run
+
+Do While Loop
+-Checks loop control condition at end
+- loop body always runs at least once regardless of condition
+
+For Loop
+-similar to while loop
+-simplified notations for loop initalization and control
+
+Arrays
+- Ordered collection of elements
+- Element accessed through index
+- index is zero based
+
+For Each Loop
+- simplifies working with array members
+- Handles details of running the loop
+    body once for each array member
